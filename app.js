@@ -18,6 +18,9 @@ while (input !== 'quit' && input !== 'q') {
         if (!Number.isNaN(remove)) {
             const deleted = todos.splice(remove, 1);
             console.log(`Ok, deleted ${deleted[0]}`);
+            
+        }else{
+            console.log('Unknow index');
         }
     }
 
